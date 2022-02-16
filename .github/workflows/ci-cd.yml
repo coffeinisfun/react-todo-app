@@ -3,7 +3,7 @@ on:
   push:
     branches:
       - master
-job:
+jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
@@ -22,4 +22,3 @@ job:
           npm run tsc:check
       - name: Tests
         run: npm run test
-        
