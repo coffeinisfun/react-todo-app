@@ -1,1 +1,1 @@
-export const App = () => <div>This is an awesome new react app</div>
+export const App = () => <div>This is an broken new react app</div>
