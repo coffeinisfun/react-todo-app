@@ -22,3 +22,4 @@ job:
           npm run tsc:check
       - name: Tests
         run: npm run test
+        
